@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Apex Bank</title>
+    <link rel="stylesheet" href="/static/css/header.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="/static/assets/apexbank_logo.png"
+        alt="apexbank_logo"
+      />
+    </header>
+    <section>
+      <h2>Crie sua conta no Apex Bank</h2>
+      <form action="">
+        <div>
+          <label for="complete-name">Nome Completo</label>
+          <input type="text" id="complete-name" name="complete-name" required />
+        </div>
+        <br />
+        <div>
+          <label for="user-name">Nome de Usuário</label>
+          <input type="text" id="user-name" name="user-name" required />
+        </div>
+        <br />
+        <div>
+          <label for="birth">Data de Nascimento</label>
+          <input type="date" id="birth" name="birth" required />
+          <input type="radio" name="gender" id="m" value="masculino" required />
+          <label for="m">M</label>
+          <input type="radio" name="gender" id="f" value="feminino" required />
+          <label for="f">F</label>
+        </div>
+        <br />
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <label for="password">Senha</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <br />
+        <div>
+          <input type="submit" value="Cria Conta" />
+        </div>
+      </form>
+      <br />
+      <div>
+        <label>Já tem uma conta?</label>
+        <a href="index.html">Fazer Login</a>
+      </div>
+    </section>
+  </body>
+</html>
