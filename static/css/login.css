@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Open+Sans&family=Poppins&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vh;
+  height: 100vh;
+
+  margin: auto;
+}
+.logo{
+  width: 230px;
+}
+.main-box {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 50vh;
+  height: 55vh;
+  padding: 0px 40px;
+  border-radius: 15px;
+
+  background-color: #f8f9fa;
+  box-shadow: 15px 15px 90px #dee2e6;
+}
+.logo {
+  margin-bottom: 10px;
+}
+header {
+  color: #444;
+  text-align: center;
+  margin-bottom: 30px;
+}
+header h2 {
+  margin-bottom: 20px;
+}
+header h3 {
+  font-size: 16px;
+}
+form label {
+  font-size: 15px;
+  margin: 10px;
+}
+.text-input {
+  border: 3px solid #eee;
+  outline: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+
+  font-size: 15px;
+
+  transition: 0.4s ease-in-out;
+
+  width: 270px;
+  height: 40px;
+
+  background-color: #fff;
+}
+.text-input:focus {
+  background-color: #eee;
+}
+.login_box {
+  display: flex;
+  justify-content: center;
+}
+.btn_login {
+  padding: 10px 30px 10px 30px;
+  border-radius: 100px;
+  border: none;
+  font-size: 14px;
+
+  transition: 0.4s;
+
+  color: #fff;
+  background-color: #fa6713ff;
+}
+.btn_login:hover {
+  opacity: 80%;
+}
+.main-box > div {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.create_account {
+  text-decoration: none;
+  color: #fa6713ff;
+  transition: 0.4s;
+}
+.create_account:hover {
+  opacity: 70%;
+}

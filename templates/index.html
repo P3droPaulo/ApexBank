@@ -3,42 +3,47 @@
   <head>
     <title>Apex Bank</title>
     <link rel="stylesheet" href="/static/css/header.css" />
+    <link rel="stylesheet" href="/static/css/login.css" />
   </head>
   <body>
-    <header>
-      <img
-        class="logo"
-        src="/static/assets/apexbank_logo.png"
-        alt="apexbank_logo"
-      />
-    </header>
     <section>
-      <div>
-        <h2>Bem-vindo</h2>
-        <h3>
-          Estamos felizes em vê-lo novamente.<br />Por favor, faça login com
-          suas credenciais para acessar sua conta.
-        </h3>
-      </div>
-      <form action="">
-        <div>
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
-        </div>
+      <div class="main-box">
+        <header>
+          <img
+            class="logo"
+            src="/static/assets/apexbank_logo.png"
+            alt="apexbank_logo"
+          />
+          <h2>Bem-vindo!</h2>
+          <h3>Faça login com suas credenciais para acessar sua conta.</h3>
+        </header>
+        <form class="login-form" action="">
+          <div>
+            <label for="email">Email</label>
+            <br />
+            <input class="text-input" type="email" name="email" id="email" />
+          </div>
+          <br />
+          <div>
+            <label for="password">Senha</label>
+            <br />
+            <input
+              class="text-input"
+              type="password"
+              name="password"
+              id="password"
+            />
+          </div>
+          <br />
+          <div class="login_box">
+            <input class="btn_login" type="submit" value="Login" />
+          </div>
+        </form>
         <br />
         <div>
-          <label for="password">Senha</label>
-          <input type="password" name="password" id="password" />
+          <label>Não tem uma conta ainda?</label>
+          <a class="create_account" href="register.html">Criar Conta</a>
         </div>
-        <br />
-        <div>
-          <input type="submit" value="Login" />
-        </div>
-      </form>
-      <br />
-      <div>
-        <label>Não tem uma conta ainda?</label>
-        <a href="register.html">Criar Conta</a>
       </div>
     </section>
   </body>

@@ -1,27 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <title>Apex Bank</title>
+    <link rel="stylesheet" href="/static/css/profile.css" />
     <link rel="stylesheet" href="/static/css/header.css" />
   </head>
   <body>
-    <section>
-      <img
-        class="logo"
-        src="/static/assets/apexbank_logo.png"
-        alt="apexbank_logo"
-      />
-      <nav>
-        <a href="#">Saque</a>
-        <a href="#">Depósito</a>
-        <a href="#">PIX</a>
-        <a href="#">Cartão</a>
-        <a href="#">Conta</a>
-        <a href="#">Sobre</a>
-      </nav>
+    <section class="container">
+      <section class="menu">
+        <div class="logo">
+          <img src="/static/assets/apexbank_logo.svg" alt="" />
+        </div>
+        <div class="nav">
+          <nav>
+            <button class="nav-button">
+              <img src="/static/assets/view.png" /> Geral
+            </button>
+            <button class="nav-button">
+              <img src="/static/assets/transfer.png" /> Transações
+            </button>
+            <button class="nav-button">
+              <img src="/static/assets/credit-card.png" /> Cartão
+            </button>
+            <button class="nav-button">
+              <img src="/static/assets/money.png" /> Pagamento
+            </button>
+          </nav>
+        </div>
+        <div class="nav">
+          <h4 class="account-title">CONTA</h4>
+          <nav>
+            <button class="nav-button">
+              <img src="/static/assets/cogwheel.png" /> Configurações
+            </button>
+            <button class="nav-button">
+              <img src="/static/assets/info.png" /> Sobre
+            </button>
+          </nav>
+        </div>
+        <div class="logout-box">
+          <a class="logout-button"
+            ><img src="/static/assets/logout.png" />Deslogar</a
+          >
+        </div>
+      </section>
+      <main></main>
     </section>
-    <main>
-        
-    </main>
   </body>
 </html>

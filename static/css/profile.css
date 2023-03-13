@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Open+Sans&family=Poppins&family=Roboto&display=swap");
+
+:root {
+  --eerie-black: #1b1b1bff;
+  --jet: #323232ff;
+  --seasalt: #f6f6f6ff;
+  --white: #ffffffff;
+  --davys-gray: #5b5b5bff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+.logo img {
+  width: 200px;
+  opacity: 70%;
+}
+.logo {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+
+  background-color: var(--white);
+}
+.menu {
+  flex-basis: 10%;
+  height: 100%;
+
+  display: flex;
+  flex-flow: column wrap;
+
+  background-color: var(--eerie-black);
+}
+.nav nav {
+  padding: 0px 30px 0px 30px;
+
+  display: flex;
+  flex-flow: column wrap;
+  gap: 20px;
+}
+.nav-button {
+  width: 200px;
+  height: 40px;
+  padding-left: 25px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 16px;
+
+  transition: 0.4s ease-in-out;
+
+  border: none;
+  color: var(--seasalt);
+  opacity: 40%;
+  background-color: var(--eerie-black);
+}
+.nav-button img {
+  width: 20px;
+  margin-right: 10px;
+}
+.nav-button:hover {
+  opacity: 90%;
+  background-color: var(--jet);
+}
+.account-title {
+  margin: 40px 0px 30px 30px;
+
+  font-weight: 300;
+
+  opacity: 40%;
+  color: var(--seasalt);
+}
+.logout-box {
+  flex-basis: 60px;
+  margin-top: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  transition: 0.4s ease-in-out;
+
+  background-color: rgb(10, 10, 10);
+}
+.logout-button {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 16px;
+
+  transition: 0.4s ease-in-out;
+
+  border: none;
+  opacity: 40%;
+  background-color: rgb(35, 35, 35);
+
+  color: var(--seasalt);
+}
+.logout-box:hover,
+.logout-button:hover {
+  opacity: 80%;
+  background-color: var(--jet);
+}
+.logout-button img {
+  width: 20px;
+  margin-right: 5px;
+}

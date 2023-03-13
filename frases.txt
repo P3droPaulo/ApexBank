@@ -1,1 +1,4 @@
 Escalando juntos para o sucesso - Slogan principal
+
+#f8f9fa - Cinza
+#e1e1e1 - Cinza Escuro
